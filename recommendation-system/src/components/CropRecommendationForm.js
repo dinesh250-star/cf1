@@ -4,6 +4,9 @@ import "../css/bootstrap.css";
 import "../css/cropform.css";
 import requests from "../django-ML-API/requests";
 import axios from "../django-ML-API/axios.js";
+import '../css/material-dashboard.css'
+import '../css/nucleo-icons.css'
+import '../css/nucleo-svg.css'
 
 import Modal from "./Modal";
 function CropRecommendationForm() {
@@ -61,14 +64,14 @@ function CropRecommendationForm() {
       <div className="card">
         <div className="form-heading">
           <center>
-            <h3>
+            <h3 style={{color:"whitesmoke"}}>
               Crop Recommender<span className="crop_icon">🧑‍🌾</span>
             </h3>
           </center>
         </div>
         <div className="card-body">
           <form>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="N"
@@ -79,7 +82,7 @@ function CropRecommendationForm() {
                 placeholder="Amount of Nitrogen in Soil"
               />
             </div>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="P"
@@ -90,7 +93,7 @@ function CropRecommendationForm() {
                 placeholder="Amount of Phosphorus in Soil"
               />
             </div>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="K"
@@ -101,7 +104,7 @@ function CropRecommendationForm() {
                 placeholder="Amount of Potassium in Soil"
               />
             </div>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="temperature"
@@ -112,7 +115,7 @@ function CropRecommendationForm() {
                 placeholder="Temperature (in Celcius)"
               />
             </div>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="humidity"
@@ -123,7 +126,7 @@ function CropRecommendationForm() {
                 placeholder="Humidity (in %)"
               />
             </div>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="ph"
@@ -134,7 +137,7 @@ function CropRecommendationForm() {
                 placeholder="pH value of Soil"
               />
             </div>
-            <div className="mb-4">
+            <div className="input-group input-group-outline mb-4">
               <input
                 type="text"
                 id="rainfall"
@@ -146,9 +149,9 @@ function CropRecommendationForm() {
               />
             </div>
             <button
-              type="button"
+            style={{color:'whitesmoke'}}
               name="broadcastCrop"
-              class="btn custom-btn"
+              className="btn custom-btn"
               onClick={() => handleClick1()}
             >
               Recommend

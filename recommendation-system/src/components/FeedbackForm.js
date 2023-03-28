@@ -15,18 +15,17 @@ function FeedbackForm() {
         <div className='form-body'>
             <div className='card'>
                 <div className='form-heading'>
-                    <center><h3>Feedback<span className='crop_icon'>✍🏻</span></h3></center>
+                    <center><h3 style={{color:'whitesmoke'}}>Feedback<span className='crop_icon'>✍🏻</span></h3></center>
                 </div>
                 <div className='card-body'>
                     <form>
-                        <div className='mb-4'>
+                        <div className='input-group input-group-outline mb-4'>
                             <input type="email" className='form-control' placeholder='Enter your email' onChange={e => setEmail(e.target.value)}/>
                         </div>
-                        <div className='form-floating mb-4'>
-                            <textarea className='form-control' onChange={e => setFeedback(e.target.value)} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                            <label htmlFor='floatingTextarea' className='feedback-area'>Feedback</label>
+                        <div className='input-group input-group-outline mb-4'>
+                            <textarea className='form-control' onChange={e => setFeedback(e.target.value)} placeholder="Feedback" id="floatingTextarea"></textarea>
                         </div>
-                        <button className='btn custom-btn' onClick={e => handleFeedback(e)}>Submit</button>
+                        <button style={{color:'whitesmoke'}} className='btn custom-btn' onClick={e => handleFeedback(e)}>Submit</button>
                     </form>
                 </div>
             </div>
