@@ -3,7 +3,10 @@ import HomePage from "./components/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Result from "./components/Result";
 import Feedback from "./components/Feedback";
-import CropData from "./components/CropData";
+import AdminInput from "./components/AdminInput";
+import FertiliserRecommendation from "./components/FertiliserRecommendation";
+import Weather from "./components/Weather";
+
 function App() {
   return (
     <BrowserRouter>
@@ -11,7 +14,9 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/result" element={<Result />}></Route>
         <Route path="/feedback" element={<Feedback />}></Route>
-        <Route path="/cropdata" element={<CropData />}></Route>
+        <Route path="/admin" element={<AdminInput/>}></Route>
+        <Route path="/fertiliser" element={<FertiliserRecommendation/>}/>
+        <Route path="/weather" element={<Weather/>}/>
       </Routes>
     </BrowserRouter>
   );
