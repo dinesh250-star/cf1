@@ -15,7 +15,7 @@ function Commodity() {
 
     return (
         <div className='commodity-body'>
-            <h3>Explore By Commodity</h3>
+            <h3 className='pl-3'>Explore By Commodity</h3>
             <br />
             <div className='comm-container'>
                 <div className='row'>

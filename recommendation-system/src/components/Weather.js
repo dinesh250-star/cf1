@@ -48,8 +48,8 @@ function Weather() {
                     <div>
                         <h5 className="mb-0 text-sm">
                             <span className='image-adjust'>
-                            <img src={first}/>
-                                </span> test</h5>
+                                <img src={first} />
+                            </span> test</h5>
                     </div>
                 </td>
                 <td>
@@ -86,7 +86,7 @@ function Weather() {
                         <h3>Current Forecast : {date}</h3>
                         <hr />
                         <div className='weather-readings'>
-                            <h4>Weather : <span><img src={first}/></span>Sunny</h4>
+                            <h4>Weather : <span><img src={first} /></span>Sunny</h4>
                             <h4>Temperature : 34</h4>
                             <h4>Wind Cover : 40%</h4>
                         </div>
@@ -97,35 +97,25 @@ function Weather() {
             <div className="container-fluid mt-2">
                 <div className="row">
                     <div className="col-12">
-                        <div className="card my-4">
-                            <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                                <div className="bg-gradient-danger shadow-success border-radius-lg pt-4 pb-3">
-                                    <h6 className="text-white text-capitalize ps-3">Weather Predictions</h6>
-                                </div>
-                            </div>
-                            <div className="card-body px-0 pb-2">
-                                <div className="table-responsive p-0">
-                                    <table className="table align-items-center mb-0">
-                                        <thead>
-                                            <tr className='text-center'>
-                                                <th
-                                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date</th>
-                                                <th
-                                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Weather</th>
-                                                <th
-                                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Temperature</th>
-                                                <th
-                                                    className="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                    Wind Cover</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {list}
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+                        <h4 className='text-black mb-3 text-capitalize'>Top Losers(Current trends)</h4>
+                        <table className="table table-striped align-items-center mb-0">
+                            <thead>
+                                <tr className='text-center'>
+                                    <th
+                                        className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date</th>
+                                    <th
+                                        className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Weather</th>
+                                    <th
+                                        className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Temperature</th>
+                                    <th
+                                        className="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Wind Cover</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {list}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>

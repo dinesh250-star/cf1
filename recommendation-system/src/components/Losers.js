@@ -15,7 +15,7 @@ function Losers(props) {
                 <td>
                     <div className="d-flex px-2 py-1">
                         <div>
-                            <i className="material-icons opacity-10">agriculture</i>
+                            <i className="material-icons opacity-10">grass</i>
                         </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <div className="d-flex flex-column justify-content-center">
                             <h5 className="mb-0 text-sm">{element[0]}</h5>
@@ -34,42 +34,30 @@ function Losers(props) {
     })
 
     return (
-        <div className='losers-body'>
-            <div className="container-fluid py-0">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="card my-4">
-                            <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                                <div className="bg-gradient-success shadow-success border-radius-lg pt-4 pb-3">
-                                    <h6 className="text-white text-capitalize ps-3">Top Losers(Current trends)</h6>
-                                </div>
-                            </div>
-                            <div className="card-body px-0 pb-2">
-                                <div className="table-responsive p-0">
-                                    <table className="table align-items-center mb-0">
-                                        <thead>
-                                            <tr>
-                                                <th
-                                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                    Crop Name</th>
-                                                <th
-                                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                    Price (per Qtl.)</th>
-                                                <th
-                                                    className="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                    Change</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {
-                                                list
-                                            }
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div className='container-fluid'>
+            <div className='row'>
+                <div className='col-12'>
+                    <h4 className='text-black mb-3 text-capitalize'>Top Losers(Current trends)</h4>
+                    <table className='table table-striped align-items-center'>
+                        <thead>
+                            <tr>
+                                <th
+                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                    Crop Name</th>
+                                <th
+                                    className="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                    Price (per Qtl.)</th>
+                                <th
+                                    className="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                    Change</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                list
+                            }
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

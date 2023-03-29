@@ -18,7 +18,7 @@ function PredictedValues(props) {
                             <div className="card-header p-3 pt-2">
                                 <div
                                     className="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 icon-adjust position-absolute">
-                                    <i className="material-icons opacity-10 ">agriculture</i>
+                                    <i className="material-icons opacity-10 ">online_prediction</i>
                                 </div>
                                 <div className="text-end pt-1">
                                     <p className="text-sm mb-0 text-capitalize">predictions</p>
@@ -42,7 +42,7 @@ function PredictedValues(props) {
                             <div class="card-header p-3 pt-2">
                                 <div
                                     class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4 position-absolute icon-adjust">
-                                    <i class="material-icons opacity-10">agriculture</i>
+                                    <i class="material-icons opacity-10">online_prediction</i>
                                 </div>
                                 <div class="text-end pt-1">
                                     <p class="text-sm mb-0 text-capitalize">predictions</p>
@@ -66,7 +66,7 @@ function PredictedValues(props) {
                             <div class="card-header p-3 pt-2">
                                 <div
                                     class="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute icon-adjust">
-                                    <i class="material-icons opacity-10">agriculture</i>
+                                    <i class="material-icons opacity-10">online_prediction</i>
                                 </div>
                                 <div class="text-end pt-1">
                                     <p class="text-sm mb-0 text-capitalize">predictions</p>
@@ -90,7 +90,7 @@ function PredictedValues(props) {
                             <div class="card-header p-3 pt-2">
                                 <div
                                     class="icon icon-lg icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 position-absolute icon-adjust">
-                                    <i class="material-icons opacity-10">agriculture</i>
+                                    <i class="material-icons opacity-10">online_prediction</i>
                                 </div>
                                 <div class="text-end pt-1">
                                     <p class="text-sm mb-0 text-capitalize">predictions</p>
