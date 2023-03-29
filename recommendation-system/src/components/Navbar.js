@@ -21,6 +21,9 @@ function Navbar() {
                     <div className="navbar-nav">
                         <a className="nav-link active" aria-current="page" href="/weather">🌦️ Weather</a>
                     </div>
+                    <div className="navbar-nav">
+                        <a className="nav-link active" aria-current="page" href="/price">🏷 Price</a>
+                    </div>
                 </div>
             </div>
         </nav>

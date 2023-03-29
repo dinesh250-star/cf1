@@ -6,6 +6,8 @@ import Feedback from "./components/Feedback";
 import AdminInput from "./components/AdminInput";
 import FertiliserRecommendation from "./components/FertiliserRecommendation";
 import Weather from "./components/Weather";
+import PricePrediction from "./components/PricePrediction";
+import Crop from "./components/Crop";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/admin" element={<AdminInput/>}></Route>
         <Route path="/fertiliser" element={<FertiliserRecommendation/>}/>
         <Route path="/weather" element={<Weather/>}/>
+        <Route path="/price" element={<PricePrediction/>}/>
+        <Route path="/prediction/crop" element={<Crop/>}/>
       </Routes>
     </BrowserRouter>
   );
