@@ -99,8 +99,8 @@ function Crop(props) {
                             <div className="card">
                                 <div className="card-header p-3 pt-2">
                                     <div
-                                        className="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute icon-adjust">
-                                        <i className="material-icons opacity-10">agriculture</i>
+                                        className="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute icon-adjust">
+                                        <i className="material-icons opacity-10">grass</i>
                                     </div>
                                     <div className="text-end pt-1">
                                         <h4 className="mb-0 text-info">{name}</h4>
@@ -159,8 +159,8 @@ function Crop(props) {
                             <div className="card">
                                 <div className="card-header p-3 pt-2">
                                     <div
-                                        className="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute icon-adjust">
-                                        <i className="material-icons opacity-10">plants</i>
+                                        className="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute icon-adjust">
+                                        <i className="material-icons opacity-10">batch_prediction</i>
                                     </div>
                                     <div className="text-end pt-1">
                                         <h4 className="mb-0 text-info">Brief Forcast</h4>

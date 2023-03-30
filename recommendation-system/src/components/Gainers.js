@@ -41,7 +41,7 @@ function Gainers(props) {
         <div className='container-fluid'>
             <div className='row'>
                 <div className='col-12'>
-                    <h4 className='text-black mb-3 text-capitalize'>Top Gainers(Current trends)</h4>
+                    <h4 className='text-black mb-3 text-capitalize'>Top Gainers (Current trends)</h4>
                     <table className='table table-striped align-items-center'>
                         <thead>
                             <tr>

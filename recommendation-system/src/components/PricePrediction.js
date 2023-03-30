@@ -36,6 +36,7 @@ function PricePrediction() {
   return (
     <div>
       <Navbar></Navbar>
+      <br></br>
       <PredictedValues sixmonth={sixmonths}></PredictedValues>
       <Gainers obj={TopGainers}></Gainers>
       <Losers losers={TopLosers}></Losers>
